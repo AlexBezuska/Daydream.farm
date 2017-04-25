@@ -1,0 +1,15 @@
+{
+  "name": "daydream-farm",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss wp-content/themes/daydream-farm/scss/main.scss   wp-content/themes/daydream-farm/style.css",
+    "upload": "sh upload.sh"
+  },
+  "author": "Alex Bezuska <abezuska@gmail.com> (http://alexbezuska.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.5.2"
+  }
+}
