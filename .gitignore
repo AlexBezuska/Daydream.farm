@@ -41,3 +41,5 @@ wp-content/themes/twentyfifteen
 wp-content/themes/twentysixteen
 wp-content/themes/twentyseventeen
 upload.sh
+
+node_modules
