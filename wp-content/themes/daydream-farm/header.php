@@ -20,9 +20,16 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
+<div id="page" class="site container">
+  <div class="row no-margin">
+    <div class="col-sm-8">
+    <img src="<?php echo bloginfo('stylesheet_directory') . "/img/header-gallery" . rand(1,4) . ".png"?> " />
+    </div>
+    <div class="col-sm-4">
+      <img src="<?php bloginfo('stylesheet_directory')?>/img/save-the-date.png" />
+    </div>
+  </div>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'daydream-farm' ); ?></a>
-
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 			<?php
@@ -44,6 +51,7 @@
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'daydream-farm' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
+
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content row">

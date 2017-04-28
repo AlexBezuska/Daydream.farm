@@ -13,13 +13,10 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'daydream-farm' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'daydream-farm' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'daydream-farm' ), 'daydream-farm', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
+	<footer>
+    <p class="text-center">&copy; 2017 Daydream Farm - <a href="http://alexbezuska.com">Alex Bezuska</a> and <a href="http://howdycara.com">Cara Smith</a></p>
 	</footer><!-- #colophon -->
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

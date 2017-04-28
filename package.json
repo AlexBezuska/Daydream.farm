@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:upload": "npm run build-css && npm run upload",
     "build-css": "node-sass --include-path scss wp-content/themes/daydream-farm/scss/main.scss   wp-content/themes/daydream-farm/style.css",
     "upload": "sh upload.sh"
   },

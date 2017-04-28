@@ -1,3 +1,16 @@
 /*--------------------------------------------------------------
 # Colors
 --------------------------------------------------------------*/
+$dark-grey: #534e4e;
+
+body, html {
+  background: $dark-grey !important;
+}
+
+.container{
+  background: white;
+}
+
+a, a:visited, a:active{
+  color: $dark-grey !important;
+}
